@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAVIAN TRAVEL SAFARI AGENCY</title>
+</head>
+
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h1>Cleavian Travel Safaris Destination of Visits</h1>
+    <ol type="I">
+        <li>Maasai Mara National Park</li>
+        <li>Tsavo National Parrk</li>
+        <li>Arbedare Ranges</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>Sceneranies to watch</h2>
+    <img src="https://1drv.ms/i/c/79837e1cc9d260cb/EQhsjgqVbWdJqgoxTIz-DF4Bok9vXuBh9J9a1qxthe2S0w?e=4WAriy" alt="Wilder Beest Migration" width="300px" height="200px">
+    <img src="https://1drv.ms/i/c/79837e1cc9d260cb/ESoBG2aEZaJBnKsoDoGVtmMBvxKDlC5UlA1uY_kyTMEuNQ?e=01xBmW" alt="Wilder Beest Migration" width="300px" height="200px">
+    <img src="https://1drv.ms/i/c/79837e1cc9d260cb/ETAhn7aPCoNGu7qQltXdmXcBdU2Tw6j7u0tP3v3xSt6l5Q?e=10M7Aw" alt="Maasai Culture" style="width: 400px;">
+
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="2" cellpadding="5" cellspacing="1">
+        <caption>Contact List</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cleavian</td>
+                <td>Nairobi Kenya</td>
+                <td>cleavian03@madadi.com</td>
+            </tr>
+            <tr>
+                <td>Kimani Mbugua</td>
+                <td>Arbedare, Kenya</td>
+                <td>kimani.mbugua@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Shakir Swabir</td>
+                <td>Mombasa Kenya</td>
+                <td>shakir.swabir@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Booking Form</h2>
+    <form action="/submit" method="POST">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="destination of vistit">destination of vistit:</label>
+        <select id="destination of vistit" name="destination of vistit" required>
+            <option value="">Select your destination of vistit</option>
+            <option value="Nairobi">Maasai Mara</option>
+            <option value="Mombasa">Tsavo National Park</option>
+            <option value="Nanyuki">Arbedare Ranges</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Hiking</label><br>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Swimming</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Hunting</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Booking</button>
+    </form>
+</body>
+
+</html>
